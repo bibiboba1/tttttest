@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Способ получения</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="progress">
+    <div class="step active"></div>
+    <div class="step"></div>
+    <div class="step"></div>
+  </div>
+
+  <h1 class="title">Выберите способ получения</h1>
+
+  <a href="#" class="yellow-block">
+    <strong>На счёт</strong><br/>
+    <span>Перевод CZK на ваш счет</span>
+  </a>
+
+  <a href="#" class="yellow-block">
+    <strong>Наличные</strong><br/>
+    <span>Получите наличные в Праге</span>
+  </a>
+
+  <a href="/" class="yellow-button">Назад</a>
+</body>
+</html>
